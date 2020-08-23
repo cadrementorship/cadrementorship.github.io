@@ -17,6 +17,12 @@ html {
 
 .navbar-brand {
 	color: #5bd9ff;
+	padding: 0;
+}
+
+.navbar-brand img {
+	height: 100%;
+	width: auto;
 }
 
 .navbar {
@@ -37,12 +43,12 @@ html {
 }
 
 .dropdown-menu>li>a {
-	color: white;
+	color: black;
 }
 
 /*Hero of Page*/
 #hero {
-	background-image: url(../img/hero_placeholder.jpg);
+	background-image: url(../img/bighero.jpg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: 100% auto;
@@ -60,7 +66,7 @@ html {
 }
 
 .hero-big-txt .col-sm-6 {
-	background-color: rgba(0,0,0,0.4);
+	/*background-color: rgba(0,0,0,0.4);*/
 	border-radius: 20px;
 }
 
@@ -158,8 +164,12 @@ html {
 		background-color: rgba(3,6,23);
 	}
 
+	.dropdown-menu>li>a {
+		color: white;
+	}
+
 	#hero {
-		background-size: auto 100%;
+		background-image: none;
 	}
 
 	.hero-big-txt {
