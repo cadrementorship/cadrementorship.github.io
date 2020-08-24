@@ -81,7 +81,7 @@
 }
 
 .hero-big-txt p {
-	background-color: rgba(208,167,61,0.4);
+	background-color: rgba(91,217,255,0.5);
 	border-radius: 10px;
 	padding: 5px;
 	color: #030617;
@@ -99,7 +99,7 @@
 	background-color: #030617;
 	padding: 5px 10px;
 	font-size: 35px;
-	width: 300px;
+	width: 100%;
 	display: inline-block;
 }
 
