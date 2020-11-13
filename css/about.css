@@ -139,6 +139,37 @@
 	border-right: ridge #5bd9ff;
 }
 
+#current-mentors {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#current-mentors .current-mentors-header{
+	text-align: center;
+	color: #53C651;
+	font-weight: bold;
+	padding: 10px;
+	border: solid #53C651;
+	border-radius: 15px;
+	background-color: #ffff83;
+	margin-bottom: 2em;
+}
+
+#current-mentors .theMentor {
+	padding: 0 20px;
+	margin-bottom: 10em;
+}
+
+#current-mentors .theMentor img {
+	border-radius: 15px;
+	width: 100%;
+	height: auto;
+}
+
+#current-mentors .theMentor .theMentor-text{
+	font-size: 20px;
+}
+
 /*End of Page*/
 #end {
 	margin-right: 20px;

@@ -1,0 +1,118 @@
+body {
+	background-color: #ffff83;
+}
+
+body>.container {
+	background-color: rgba(255,255,255,0.8);
+}
+
+/*Hero*/
+#hero {
+	padding-bottom: 5px;
+}
+
+.hero-image {
+	width: auto;
+	height: 100%;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+/*Nav*/
+.navar {
+	font-size: 24px;
+	padding: 10px 30px 10px 0px;
+}
+
+.navbar-inverse {
+	background-color: #343434;
+}
+
+.navar a {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #fff;
+}
+
+.navar a:hover {
+	color: #ffff83;;
+}
+
+/*Body*/
+#body {
+	padding-bottom: 100px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#body .art-vid {
+	margin-top: 5em;
+	margin-bottom: 5em;
+	text-align: center;
+
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+#body .art-vid iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#body .art-head img {
+	width: 100%;
+	height: auto;
+}
+
+#body .art-text {
+	font-size: 16px;
+}
+
+#body ul {
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#body ul>li {
+	padding: 5px;
+	margin: 0 4px;
+	float: left;
+	list-style-type: none;
+	color: #fff;
+	background-color: #53C651;
+	border-radius: 12px;
+}
+
+/*End*/
+#end hr {
+	margin: 0;
+	padding: 0;
+	border-color: #222222;
+}
+
+#end .row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#end p {
+	color: #030617;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
+	font-size: 16px;
+}
+
+#end .platforms {
+	text-align: right;
+}
