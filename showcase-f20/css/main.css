@@ -38,9 +38,22 @@ h3 {
 p {
   font-size:24px;
   font-family: 'Montserrat', sans-serif;
+  padding:0px;
+  margin:0px;
 }
 a {
+  font-size:24px;
+  font-family: 'Montserrat', sans-serif;
   text-decoration:none;
+  color:black;
+  padding:0px;
+  margin:0px;
+}
+a h2:hover {
+  color:white;
+}
+a p:hover {
+  color:white;
 }
 /* --------------------------------------- */
 .header {
@@ -50,7 +63,7 @@ a {
   height:10vh;
   position:fixed;
   text-align:center;
-  background-color: #fff07d;
+  background-color:#fff07d;
   margin:0px;
 }
 .header_links {
@@ -63,7 +76,7 @@ a {
 .about {
   background-color:white;
   width:100%;
-  padding:10px 25% 10px 25%;
+  padding:20px 25% 10px 25%;
   height:auto;
   margin-top:2em;
 }
