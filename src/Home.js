@@ -1,4 +1,5 @@
 import './css/Navbar.css';
+import './css/Footer.css';
 import './css/Home.css';
 
 function Home() {
