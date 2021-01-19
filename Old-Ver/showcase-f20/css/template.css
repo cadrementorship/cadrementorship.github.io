@@ -1,0 +1,112 @@
+body {
+	background-color: #fff983;
+}
+
+body>.container {
+	background-color: rgba(255,255,255,0.8);
+}
+
+/*Hero*/
+#hero {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.hero-image {
+	padding-bottom: 25px;
+	width: auto;
+	height: 100%;
+}
+
+/*Nav*/
+.navar {
+	font-size: 24px;
+	padding: 10px;
+	color: #5bd9ff;
+}
+
+.navbar-inverse {
+	background-color: #343434;
+}
+
+.navar a {
+	color: #fff;
+}
+
+.navar a:hover {
+	color: #ffff83;
+}
+
+/*Body*/
+#body {
+	padding-bottom: 100px;
+}
+
+#body .description-text {
+	font-size: 18px;
+	padding-bottom: 50px;
+}
+
+#body .list {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+#body .list th{
+	font-size: 24px;
+}
+
+#body .list tr td:nth-child(1), #body .list tr th:nth-child(1) {
+	text-align: center;
+}
+
+/*End*/
+#end hr {
+	margin: 0;
+	padding: 0;
+	border-color: #222222;
+}
+
+#end .row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#end p {
+	color: #030617;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
+	font-size: 16px;
+}
+
+#end .platforms {
+	text-align: right;
+}
+
+/*When the browser window is 600px wide or less, do this*/
+@media only screen and (max-width: 600px) {
+	.hero-image {
+		width: 100%;
+		height: auto;
+	}
+
+	#body .list th{
+		font-size: 20px;
+	}
+
+	#end p {
+		position: relative;
+		top: 0;
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		text-align: center;
+	}
+
+	#end .platforms {
+		text-align: center;
+	}
+}

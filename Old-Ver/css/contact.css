@@ -1,0 +1,162 @@
+.navbar-fixed-top {
+	background-color: rgba(3,6,23,0.5);
+}
+
+.icon-bar {
+	background-color: white;
+}
+
+.navbar-fixed-top .container{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.navbar-brand {
+	color: #5bd9ff;
+	padding: 0;
+}
+
+.navbar-brand img {
+	height: 100%;
+	width: auto;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-right a {
+	font-size: 20px;
+	color: white;
+}
+
+.nav-text:hover {
+	color: #53C651;
+}
+
+.dropdown-toggle:hover {
+	color: #53C651;
+}
+
+.dropdown-menu>li>a {
+	color: black;
+}
+
+/*Hero of Page*/
+#hero {
+	background-image: url(../img/bighero.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% auto;
+	padding-bottom: 20px;
+}
+
+#hero .container {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.hero-big-txt {
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+
+.hero-big-txt .col-sm-6 {
+	/*background-color: rgba(0,0,0,0.4);*/
+	border-radius: 20px;
+}
+
+.hero-big-txt h1 {
+	-webkit-text-stroke: 2px #53C651;
+	font-size: 70px;
+	color: #ffff83;
+	line-height: 0.9;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+/*Body of Page*/
+#body {
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+.form {
+	text-align: center;
+
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 800px;
+	overflow: hidden;
+}
+
+.form iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*End of Page*/
+#end {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#end hr {
+	margin: 0;
+	padding: 0;
+	border-color: #5bd9ff;
+}
+
+#end .row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#end p {
+	color: #030617;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
+	font-size: 16px;
+}
+
+#end .platforms {
+	text-align: right;
+}
+
+/*When the browser window is 600px wide or less, do this*/
+@media only screen and (max-width: 600px) { 
+	.navbar-fixed-top {
+		background-color: rgba(3,6,23);
+	}
+
+	.dropdown-menu>li>a {
+		color: white;
+	}
+
+	#hero {
+		background-image: none;
+	}
+
+	.hero-big-txt {
+	    margin-top: 0;
+	    margin-bottom: 30px;
+	}
+
+	#end p {
+		position: relative;
+		top: 0;
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		text-align: center;
+	}
+
+	#end .platforms {
+		text-align: center;
+	}
+}
