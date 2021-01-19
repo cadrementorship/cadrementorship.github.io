@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "//cadrementorship.github.io/static/css/main.a969d2d0.chunk.css",
+    "main.js": "//cadrementorship.github.io/static/js/main.f2f7bd23.chunk.js",
+    "main.js.map": "//cadrementorship.github.io/static/js/main.f2f7bd23.chunk.js.map",
+    "runtime-main.js": "//cadrementorship.github.io/static/js/runtime-main.1dfdfd17.js",
+    "runtime-main.js.map": "//cadrementorship.github.io/static/js/runtime-main.1dfdfd17.js.map",
+    "static/js/2.a4d79329.chunk.js": "//cadrementorship.github.io/static/js/2.a4d79329.chunk.js",
+    "static/js/2.a4d79329.chunk.js.map": "//cadrementorship.github.io/static/js/2.a4d79329.chunk.js.map",
+    "index.html": "//cadrementorship.github.io/index.html",
+    "static/css/main.a969d2d0.chunk.css.map": "//cadrementorship.github.io/static/css/main.a969d2d0.chunk.css.map",
+    "static/js/2.a4d79329.chunk.js.LICENSE.txt": "//cadrementorship.github.io/static/js/2.a4d79329.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1dfdfd17.js",
+    "static/js/2.a4d79329.chunk.js",
+    "static/css/main.a969d2d0.chunk.css",
+    "static/js/main.f2f7bd23.chunk.js"
+  ]
+}
