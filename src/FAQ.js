@@ -1,5 +1,3 @@
-import './css/Navbar.css';
-import './css/Footer.css';
 import './css/FAQ.css';
 
 function FAQ() {
