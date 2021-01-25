@@ -14,6 +14,11 @@ function Forms() {
       <div className="forms-body">
         <h2>Body of Forms page</h2>
       </div>
+
+      <div className="footer">
+        <h1>hello anthony how are you? (this is footer)</h1>
+      </div>
+      
     </div>
   );
 }
