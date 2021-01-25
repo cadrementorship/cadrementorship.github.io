@@ -16,7 +16,7 @@ function About() {
       </div>
 
       <div className="footer">
-        <h1>follow anthony how are you? (this is footer)</h1>
+        <h2>follow anthony how are you? (this is footer)</h2>
       </div>
 
     </div>
