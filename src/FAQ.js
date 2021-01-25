@@ -2,7 +2,7 @@ import './css/FAQ.css';
 
 function FAQ() {
   return (
-    <div className="faq">
+    <div className="faq-page">
       <div className="navbar">
         <h1>This is a navbar</h1>
       </div>

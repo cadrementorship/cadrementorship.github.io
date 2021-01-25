@@ -2,7 +2,7 @@ import './css/About.css';
 
 function About() {
   return (
-    <div className="about">
+    <div className="about-page">
       <div className="navbar">
         <h1>This is a navbar</h1>
       </div>
