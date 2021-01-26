@@ -17,6 +17,11 @@ function Home() {
       <div className="home-body">
         <h2>Body of home page</h2>
       </div>
+
+      <div className="footer">
+        <h1>hello anthony how are you? (this is footer)</h1>
+      </div>
+      
     </div>
   );
 }

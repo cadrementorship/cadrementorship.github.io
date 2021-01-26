@@ -15,6 +15,11 @@ function About() {
       <div className="about-body">
         <h2>Body of about page</h2>
       </div>
+
+      <div className="footer">
+        <h2>follow anthony how are you? (this is footer)</h2>
+      </div>
+
     </div>
   );
 }
