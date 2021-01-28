@@ -1,23 +1,14 @@
-import './css/Navbar.css';
+import  Navbar  from './Navbar'
 import './css/Footer.css';
 import './css/Home.css';
-import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <div className="home-page">
-      <div className="navbar">
-        <h1>This is a navbar</h1>
-        <Link to="/about">A</Link>
-      </div>
+      <Navbar/>
 
       <div className="home-intro">
         <h1>This is the Home page intro portion (hero images, intro paragraph, etc.)</h1>
-      </div>
-
-      <div>
-        <img></img>
-        <p></p>
       </div>
 
       <div className="home-body">
