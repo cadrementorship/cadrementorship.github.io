@@ -1,9 +1,9 @@
 .navbar {
   padding: 10px 20px;
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0; */
   font-size: 24px;
   background-color: white;
 }
@@ -16,13 +16,29 @@
   position: relative;
   float: right;
   padding: 9px 10px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  visibility: hidden;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.icon-bar {
+  background-color: #222222;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 4px;
 }
 
 .navbar-title {
@@ -74,5 +90,16 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-title {
+    float: left;
+  }
+
+  .navbar-toggle {
+    float: right;
+    visibility: visible;
+  }
 }
