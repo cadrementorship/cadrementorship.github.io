@@ -23,19 +23,16 @@ function Navbar() {
     }
 
     const [eleHeight, setEleHeight] = useState(0);
-    const navHidden = {
-        marginTop: eleHeight
-    };
-
-    const navShow = {
-        marginTop: "52px"
-    };
+    const navHidden = {marginTop: eleHeight};
+    const navShow = {marginTop: "52px"};
 
     function jsStyle(){
         if(winWidth <= 600 && cllickCollapse == true){
             return navShow;
         }
-        return navHidden;
+        else if (winWidth <= 600 && cllickCollapse == false){
+            return navHidden;
+        }
     }
 
     return(
