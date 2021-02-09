@@ -1,4 +1,5 @@
 import './css/FAQ.css';
+import { Link } from 'react-router-dom';
 
 function FAQ() {
   return (

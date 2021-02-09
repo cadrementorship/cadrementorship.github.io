@@ -1,13 +1,11 @@
-import './css/Navbar.css';
+import  Navbar  from './Navbar'
 import './css/Footer.css';
 import './css/Home.css';
 
 function Home() {
   return (
     <div className="home-page">
-      <div className="navbar">
-        <h1>This is a navbar</h1> 
-      </div>
+      <Navbar/>
 
       <div className="home-intro">
         <div className="intro-cadre"> The Cadre Mentorship Program is an academic leadership program that helps Digital Media Arts students thrive in thier careers at San Jose State University and beyond.</div>
