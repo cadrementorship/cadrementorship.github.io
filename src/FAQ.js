@@ -1,12 +1,11 @@
+import  Navbar  from './Navbar'
 import './css/FAQ.css';
 import { Link } from 'react-router-dom';
 
 function FAQ() {
   return (
     <div className="faq-page">
-      <div className="navbar">
-        <h1>This is a navbar</h1>
-      </div>
+      <Navbar/>
 
       <div className="faq-intro">
         <h1>This is the faq page intro portion</h1>
