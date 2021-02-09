@@ -1,3 +1,174 @@
 .home-page {
   text-align: center;
 }
+
+.in-grid{
+  display: grid;
+  grid-template-columns: repeat(3, .23fr);
+  grid-template-rows: 1.25fr 1fr ;
+  grid-template-areas: 
+  "pic1 pic2 pic3"
+  "pic4 pic5 pic6"
+  ;
+  /* place-items: stretch; */
+  justify-content: center;
+  grid-gap: 0px 50px;
+}
+
+
+
+.intro-cadre{
+  font-size: 12px;
+  
+  text-align: center;
+  margin: 0px 5px 40px 5px;
+
+}
+
+.intro-pic1{
+  grid-area: pic1;
+}
+
+.intro-pic2{
+  grid-area: pic2;
+}
+
+.intro-pic3{
+  grid-area: pic3;
+}
+
+.intro-pic4{
+  grid-area: pic4;
+}
+
+.intro-pic5{
+  grid-area: pic5;
+}
+
+.intro-pic6{
+  grid-area: pic6;
+}
+
+.intro-btn{
+
+  display: grid;
+  grid-template-columns: repeat(3, .23fr);
+  grid-template-areas: 
+  "mentor mentee join"
+  ;
+  justify-content: center;
+  grid-gap: 0px 50px;
+}
+
+.intro-mentor{
+grid-area: mentor;
+margin: 60px 00px 0px 0px;
+padding: 10px;
+border: 1px solid black;
+}
+
+.intro-mentee{
+  grid-area: mentee;
+  margin: 60px 0px 0px 0px;
+  padding: 10px;
+  border: 1px solid black;
+
+}
+
+.intro-join{
+  grid-area: join;
+  margin: 60px 0px 0px 0px;
+  padding: 10px;
+  border: 1px solid black;
+
+}
+
+.in-title{
+  text-align: left;
+  /* display: grid; */
+  /* justify-content: left; */
+  /* margin-left: 50px; */
+}
+.intro-img{
+  width: 100%;
+  height: auto;
+  /* display: grid; */
+}
+
+@media only screen and (max-width: 750px){
+
+  .intro-cadre{
+    margin: 0px 5px 50px 5px;
+  
+  }
+
+  .in-grid{
+    grid-template-columns: repeat(3, .3fr);
+    grid-template-rows: 1.25fr 1fr ;
+    grid-gap: 10px 20px;
+  }
+
+  .intro-img{
+    width: 100%;
+    height: auto;
+  }
+
+  .intro-btn{
+    display: block;
+  }
+    /* margin:top,right,bottom,left */
+  .intro-mentor{
+    margin: 50px 20px 0px 20px;
+    }
+    
+    .intro-mentee{
+      margin: 30px 20px 0px 20px;
+    }
+    
+    .intro-join{
+      margin: 30px 20px 0px 20px;
+    }
+    
+
+  }
+
+
+  .body-info{
+    display: grid;
+    grid-template-columns: .14fr .33fr .43fr .05fr;
+    grid-template-rows: 1fr;
+    margin-top: 100px;
+  }
+
+  .body-who{
+    /* grid-area: who; */
+    text-align: left;
+    grid-column: 2/3;
+  }  
+  
+  .body-why{
+    /* grid-area: why; */
+    text-align: left;
+    grid-column: 3/4;
+    margin-left: 20%;
+  }  
+  
+  .body-para1{
+    /* grid-area: para1; */
+    text-align: left;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 6%;
+  }  
+  
+  .body-para2{
+    /* grid-area: para2; */
+    text-align: left;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-left: 20%;
+    margin-top: 4%;
+
+  }
+
+  
