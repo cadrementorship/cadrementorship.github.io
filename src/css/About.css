@@ -1,3 +1,153 @@
 .about-page {
     text-align: center;
 }
+
+.about-intro{
+    margin: 60px 120px 0px 120px;
+}
+
+.about-introImg{
+    width: 100%;
+    height: auto;
+    /* display: grid; */
+  }
+
+.about-introTitle{
+      text-align: right;
+      margin: 0; 
+}
+
+ .about-introLine{
+     margin-top: 50px;
+     border-color: #00dbf4;
+ }
+ .about-introCadre{
+   font-size: 11px;
+   text-align: center;
+   margin: 0px 50px;
+ 
+ }
+ .about-introBtn{
+     margin: 0px 120px;
+ }
+
+.about-introConduct{
+ margin: 60px 0px 0px 0px;
+ padding: 25px;
+ border: 1px solid #00dbf4;
+ }
+
+ .about-body{
+     margin: 100px 170px 0;
+   }
+
+ .about-bodyInfo{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr;
+     grid-template-areas: 
+     "who why"
+     ;
+   }
+ 
+   .about-mento{
+     grid-area: who;
+     text-align: left;
+     padding-right: 30px;
+   }  
+   
+   .about-mente{
+     grid-area: why;
+     text-align: left;
+     margin-left: 30px;
+   }  
+   
+   .about-bodyText{
+     font-size: 17px;
+   }  
+   .about-bodyRole{
+     font-size: 17px;
+   }
+
+   .about-bodyLine2{
+     margin-top: 200px;
+     margin-left: 120px;
+     margin-right: 120px;
+     border-color: #00dbf4;
+   }
+
+   
+   
+   @media only screen and (max-width: 850px){
+     .about-intro{
+       margin: 0 20px;
+   }
+
+   .about-introImg{
+       margin-top: 30px;
+  }
+
+   .about-introTitle{
+       font-size: 11px;
+}
+ 
+   .about-introCadre{
+     margin: 10px 5px 40px 5px;
+   
+   }
+
+ .about-introBtn{
+    margin: 0px 10px;
+}
+
+ .about-introConduct{
+     font-size: 14px;
+   }
+   /* margin:top,right,bottom,left */
+
+  .about-body{
+     margin: 100px 20px 0;
+   }
+
+   .about-bodyInfo{
+     margin: 100px 20px 0;
+     display: block;
+   }
+
+   .about-mento{
+     padding-right: 0px;
+     padding-bottom: 20px;
+   }  
+   
+   .about-mente{
+     margin-left: 0px;
+   }  
+   
+   .about-bodyText{
+     font-size: 17px;
+   }  
+   .about-bodyRole{
+     font-size: 17px;
+   }
+   .about-bodyLine2{
+       margin: 100px 20px 0px 20px;
+     border-color: #00dbf4;
+   }
+ } 
+
+ @media only screen and (min-width: 1300px){
+
+    .about-introImg{
+        max-width: 1000px;
+      }
+
+      .about-introTitle{
+        text-align: center;
+  }  
+
+  .about-introCadre{
+    font-size: 15px;
+  
+  }
+
+  }

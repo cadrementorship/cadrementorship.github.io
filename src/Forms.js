@@ -1,12 +1,11 @@
+import  Navbar  from './Navbar'
 import './css/Forms.css';
 import { Link } from 'react-router-dom';
 
 function Forms() {
   return (
     <div className="forms-page">
-      <div className="navbar">
-        <h1>This is a navbar</h1>
-      </div>
+      <Navbar/>
 
       <div className="forms-intro">
         <h1>This is the Forms page intro portion</h1>
