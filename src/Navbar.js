@@ -21,12 +21,11 @@ function Navbar() {
                 </div>
                 <div className={cllickCollapse ? "navbar-collapse active" : "navbar-collapse"}>
                     <ul className="navbar-center">
-                    <li><Link to="/">Home</Link></li>
-                        <li><Link to="/">About</Link></li>
-                        <li><Link to="/">Forms</Link></li>
-                        <li><Link to="/">FAQ</Link></li>
-                        {/* <li><Link to="/">Forms</Link></li>
-                        <li><Link to="/">FAQ</Link></li> */}
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/people">People</Link></li>
+                        {/* <li><Link to="/forms">Forms</Link></li> */}
+                        <li><Link to="/faq">FAQ</Link></li>
                     </ul>
                     <ul className="navbar-right">
                         <li><Link to="/">F20</Link></li>
