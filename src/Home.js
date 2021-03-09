@@ -12,8 +12,7 @@ function Home() {
         </p>
 
       <div className="home-intro">      
-        <div className="home-in-grid">
-         
+        <div className="home-in-grid">         
           <div className="home-intro-pic1"> 
             <a href="https://www.microsoft.com/en-us/?spl=1">
               <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
