@@ -4,6 +4,7 @@ import './css/index.css';
 import { Route, Switch, HashRouter as Router } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
+import People from './People';
 import Forms from './Forms';
 import FAQ from './FAQ';
 
@@ -12,6 +13,7 @@ const routing = (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/people" component={People} />
       <Route path="/forms" component={Forms} />
       <Route path="/faq" component={FAQ} />
     </Switch>
@@ -20,5 +22,5 @@ const routing = (
 
 ReactDOM.render(
   routing,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

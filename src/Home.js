@@ -1,27 +1,93 @@
-import './css/Navbar.css';
+import  Navbar  from './Navbar'
 import './css/Footer.css';
 import './css/Home.css';
-import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <div className="home-page">
-      <div className="navbar">
-        <h1>This is a navbar</h1>
-        <Link to="/about">A</Link>
-      </div>
+      <Navbar/>
 
-      <div className="home-intro">
-        <h1>This is the Home page intro portion (hero images, intro paragraph, etc.)</h1>
-      </div>
+      <p className="home-intro-cadre">
+        The Cadre Mentorship Program is an academic leadership program that helps Digital Media Arts students thrive in thier careers at San Jose State University and beyond.
+        </p>
 
-      <div>
-        <img></img>
-        <p></p>
+      <div className="home-intro">      
+        <div className="home-in-grid">         
+          <div className="home-intro-pic1"> 
+            <a href="https://www.microsoft.com/en-us/?spl=1">
+              <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+                className="home-intro-img"/>
+            </a>
+            <div className="home-in-title">Lopem</div>
+          </div>
+          
+          <div className="home-intro-pic2"> 
+           <a href="https://www.microsoft.com/en-us/?spl=1">
+              <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+                className="home-intro-img"/>
+            </a>
+          <div className="home-in-title">Lopem</div>
+
+          </div>
+          
+          <div className="home-intro-pic3"> 
+            <a href="https://www.microsoft.com/en-us/?spl=1">
+                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+                  className="home-intro-img"/>
+            </a>
+           <div className="home-in-title">Lopem</div>
+
+          </div>
+          
+          <div className="home-intro-pic4"> 
+            <a href="https://www.microsoft.com/en-us/?spl=1">
+                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+                  className="home-intro-img"/>
+            </a>
+           <div className="home-in-title">Lopem</div>
+
+          </div>
+          
+          <div className="home-intro-pic5"> 
+            <a href="https://www.microsoft.com/en-us/?spl=1">
+                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+                  className="home-intro-img"/>
+            </a>
+           <div className="home-in-title">Lopem</div>
+
+          </div>
+          
+          <div className="home-intro-pic6"> 
+            <a href="https://www.microsoft.com/en-us/?spl=1">
+                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+                  className="home-intro-img"/>
+            </a>
+           <div className="home-in-title">Lopem</div>
+
+          </div>
+
+        </div>
+
+          <div className="home-intro-btn">
+            <div className="home-intro-mentor"> Be a Mentor</div>
+            <div className="home-intro-mentee"> Be a Mentee</div>
+            <div className="home-intro-join"> Join a Committee</div>
+          </div>  
       </div>
 
       <div className="home-body">
-        <h2>Body of home page</h2>
+       
+        <div className="home-body-info">
+        
+          <div className="home-body-who"> 
+            <p className="home-body-texwho">Who Can Join?</p>
+            <p>Joining the pilot mentorship program allows you to conect with other digital media art students and learn new skills from each other. You will be able to be eligible for new opportunities to be plugged into projects and network with your fellow students.</p>
+          </div>
+          <div className="home-body-why">
+            <p className="home-body-texwhy">Why Join the Program?</p>
+            <p>Anyone who wants to meet and connect with other digital media art majors and find out more about the program or show off your skills to newcomers. Those who want to help create a more inclusive environment and be more involved in the community should apply? </p>
+          </div>
+        </div>
       </div>
 
       <div className="footer">
