@@ -1,6 +1,6 @@
 import  Navbar  from './Navbar'
 import './css/People.css';
-import img0 from './img/people/christian.jpg';
+// import img0 from './img/people/christian.jpg';
 
 function Forms() {
   return (
@@ -123,7 +123,7 @@ function Forms() {
         <div className="people-body-mentor-grid">
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src={img0}/>
+              <img src="images/christian.jpg"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Chirstain Acosta</p>
             <p className="people-body-card-text">The 1st time I started drawing was in elementary. I started making short funny comics for my friends then advanced to animation and storytelling in high school and college. If I can get people feel and emotion through my art, then I have made a successful one.</p>
