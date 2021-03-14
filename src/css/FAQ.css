@@ -42,7 +42,7 @@ html {
   margin-left: 5vw;
   margin-right: 5vw;
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .faq-body-questions-title {
@@ -74,17 +74,14 @@ html {
 }
 
 .faq-body-all-answers {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  column-gap: 20px;
-  row-gap: 30px;
+  /* width: 70vw; */
   max-width: 1000px;
   margin: 0 auto;
 }
 
 .faq-body-answer {
   text-align: left;
+  margin-bottom: 7em;
 }
 
 .faq-body-answer-title {
@@ -110,11 +107,7 @@ html {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 720px) {
-  .faq-body-all-answers {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
+@media only screen and (max-width: 1050px) {
   .faq-body-answer {
     margin-left: 20px;
     margin-right: 20px;
