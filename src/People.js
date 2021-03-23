@@ -1,7 +1,14 @@
-import  Navbar  from './Navbar'
+import  Navbar  from './Navbar';
 import './css/People.css';
+import Accordion from './Accordion';
 
 function Forms() {
+  // Used to securely open an external link in a new tab (https://stackoverflow.com/questions/45046030/maintaining-href-open-in-new-tab-with-an-onclick-handler-in-react)
+  /*const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }*/
+
   return (
     <div className="people-page">
       <Navbar/>
@@ -30,8 +37,8 @@ function Forms() {
             <div className="people-body-card-img">
               <img src="https://dummyimage.com/150x150.jpg"/>
             </div>
-            <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Clay Bedinger</p>
-            <p className="people-body-card-text"> Our digital age is full of opportunity for those with the skill to wield it, for better or worse. As a digital media artist, I choose better. My return to San Jose State is defined by a burning desire to finish my studies and begin making my mark on the world - leaving everything in my path better than when I found it. My goal is to use my freedom of thought to harness the powerful tools, knowledge, and networks available in the information age to make the future a better place, improving experiences for people around the world.<br></br>In digital art practice, I am drawn to data visualization, user experience research and design, and technical writing. I am actively preparing myself for a career in these fields, seeking opportunities to use my talents as a tangible force for good in the world. Whether designing a new way to re-enable a disability, visualizing data to draw attention to a societal problem, or translating difficult technological concepts into plain, engaging language for everyone to learn about and understand, I intend to stake a claim on the digital frontier in the name of those who cannot.</p>
+            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Clay Bedinger</a>
+            <Accordion content={`Our digital age is full of opportunity for those with the skill to wield it, for better or worse. As a digital media artist, I choose better. My return to San Jose State is defined by a burning desire to finish my studies and begin making my mark on the world - leaving everything in my path better than when I found it. My goal is to use my freedom of thought to harness the powerful tools, knowledge, and networks available in the information age to make the future a better place, improving experiences for people around the world. \n\nIn digital art practice, I am drawn to data visualization, user experience research and design, and technical writing. I am actively preparing myself for a career in these fields, seeking opportunities to use my talents as a tangible force for good in the world. Whether designing a new way to re-enable a disability, visualizing data to draw attention to a societal problem, or translating difficult technological concepts into plain, engaging language for everyone to learn about and understand, I intend to stake a claim on the digital frontier in the name of those who cannot.`}/>
           </div>
               {/* to here  */}
               
@@ -39,8 +46,8 @@ function Forms() {
             <div className="people-body-card-img">
               <img src="https://dummyimage.com/150x150.jpg"/>
             </div>
-            <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Rachel Centinaje</p>
-            <p className="people-body-card-text">I’m Rachel Centinaje, a digital media artist working video, motion graphics, 3D modeling, and illustration. Art has helped me gain insight about the world and myself. A lot of my inspiration comes from digital artists, nostalgia, film, video games, and pop culture. When I consume things, I like to remix it to form my interpretation. Digital artists Jonathan Zawada, Quentin Deronzier, and Kim Laughton influence my works because it looks dreamlike, whimsical, and odd, transporting the viewer to an unfamiliar world, but at the same brings out familiarness. It inspires me to create art and reflect that in my own style and works. My current work explores the relationship between digital technology and culture along with the psychological effects it has on us, especially with this odd transition between the old world and new technology.</p>
+            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Rachel Centinaje</a>
+            <Accordion content={`I’m Rachel Centinaje, a digital media artist working video, motion graphics, 3D modeling, and illustration. Art has helped me gain insight about the world and myself. A lot of my inspiration comes from digital artists, nostalgia, film, video games, and pop culture. When I consume things, I like to remix it to form my interpretation. Digital artists Jonathan Zawada, Quentin Deronzier, and Kim Laughton influence my works because it looks dreamlike, whimsical, and odd, transporting the viewer to an unfamiliar world, but at the same brings out familiarness. It inspires me to create art and reflect that in my own style and works. My current work explores the relationship between digital technology and culture along with the psychological effects it has on us, especially with this odd transition between the old world and new technology.`}/>
           </div>
 
           <div className="people-body-card">
