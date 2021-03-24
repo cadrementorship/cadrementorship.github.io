@@ -79,6 +79,7 @@
 .people-body-card {
     padding: 10px 0;
     text-align: left;
+    /* background-color: white; */
 }
 
 .people-body-card-img {
@@ -93,8 +94,33 @@
 }
 
 .people-body-card-name {
-    text-decoration: none;
     font-size: 21px;
+    color: #337ab7;
+    display: inline-block;
+    margin: 21px 0;
+}
+
+.people-body-card-name:hover {
+    text-decoration: none;
+    color: #222;
+}
+
+/* .people-body-card-text {
+    overflow: hidden;
+    height: 42px;
+} */
+
+.people-body-card-more {
+    border: solid #222;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.people-body-card-more:hover {
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1060px) {
