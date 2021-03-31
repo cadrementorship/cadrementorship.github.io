@@ -98,7 +98,7 @@
   color: #337ab7;
   display: inline-block;
   margin: 21px 0;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .people-body-card-name:hover {
