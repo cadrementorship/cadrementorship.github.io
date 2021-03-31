@@ -4,7 +4,7 @@
     transition: max-height 0.6s ease;
     white-space: pre-wrap;
     /* text-indent: 50px; */
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .accordion-button {
