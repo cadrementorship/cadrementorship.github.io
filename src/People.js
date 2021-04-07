@@ -236,7 +236,7 @@ function Forms() {
               <img src="images/lchun.jpg"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Lauren Chun</p>
-            <p className="people-body-card-text">Lauren Chun is a digital media artist and senior in the BFA Digital Media Art major. Lauren specializes in 3D forms in virtual and physical spaces. She is currently the VP of CADRE SO, and Chair of ACM SIGGRAPH Student Chapter at SJSU.</p>
+            <Accordion content={`Lauren Chun is a digital media artist and senior in the BFA Digital Media Art major. Lauren specializes in 3D forms in virtual and physical spaces. She is currently the VP of CADRE SO, and Chair of ACM SIGGRAPH Student Chapter at SJSU.`}/>
           </div>
 
           <div className="people-body-card">
@@ -244,7 +244,7 @@ function Forms() {
               <img src="images/anthony.png"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Anthony Sokry</p>
-            <p className="people-body-card-text">Anthony is a Digital Media Arts student with a passion and interest in writing code, web development, technology, and game development. He is familiar with popular programming languages such as HTML, CSS, Javascript, Java, and C# as well as possessing experience working with Processing, P5, and Arduino. Anthony strives to be a full fledged game developer with a strong background in programming.</p>
+            <Accordion content={`Anthony is a Digital Media Arts student with a passion and interest in writing code, web development, technology, and game development. He is familiar with popular programming languages such as HTML, CSS, Javascript, Java, and C# as well as possessing experience working with Processing, P5, and Arduino. Anthony strives to be a full fledged game developer with a strong background in programming.`}/>
           </div>
 
           <div className="people-body-card">
@@ -252,7 +252,7 @@ function Forms() {
               <img src="images/sabrina.jpg"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Sabrina Kwong</p>
-            <p className="people-body-card-text">Sabrina is a rising senior that aspires to be a working artist and designer. Identifies as a first-generation college student, an Asian American, and a learner. She works with traditional and digital mediums in order to understand the human condition and roles that technology plays in our world.</p>
+            <Accordion content={`Sabrina is a rising senior that aspires to be a working artist and designer. Identifies as a first-generation college student, an Asian American, and a learner. She works with traditional and digital mediums in order to understand the human condition and roles that technology plays in our world.`}/>
           </div>
 
           <div className="people-body-card">
@@ -260,7 +260,7 @@ function Forms() {
               <img src="images/ray.jpg"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Raymond Lam</p>
-            <p className="people-body-card-text">While working as a concept artist for a motorsports illustration company with clients like Honda and Porsche, Lam has industry experience with creating powerful visual narratives in distilled sketches for stages of quick iterations and final proposals. his recent illustrations for notable skateboard and apparel companies feature striking exploration of contrasts through cyberpunk visuals. They demonstrate technical skill, highly detailed illustrations and sharp graphic design for presentation.</p>
+            <Accordion content={`While working as a concept artist for a motorsports illustration company with clients like Honda and Porsche, Lam has industry experience with creating powerful visual narratives in distilled sketches for stages of quick iterations and final proposals. his recent illustrations for notable skateboard and apparel companies feature striking exploration of contrasts through cyberpunk visuals. They demonstrate technical skill, highly detailed illustrations and sharp graphic design for presentation.`}/>
           </div>
 
           <div className="people-body-card">
@@ -268,7 +268,7 @@ function Forms() {
               <img src="images/yeab.jpg"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Yeab Kebede </p>
-            <p className="people-body-card-text">Born and raised in a country which embraces the dynamic of colors, patterns and magical folk stories, I am subconsciously attracted to colorful textiles and patterns. As a young child walking through the streets of Ethiopia, I remember that the colors not only had a life of their own but had a distinct smell. As a multi-medium artist I am inspired by my early on relationship with colors and patterns in addition to life itself. I use a wide array of means from traditional painting and drawing to more moderns was like illustration, video, photography and digital media art.</p>
+            <Accordion content={`Born and raised in a country which embraces the dynamic of colors, patterns and magical folk stories, I am subconsciously attracted to colorful textiles and patterns. As a young child walking through the streets of Ethiopia, I remember that the colors not only had a life of their own but had a distinct smell. As a multi-medium artist I am inspired by my early on relationship with colors and patterns in addition to life itself. I use a wide array of means from traditional painting and drawing to more moderns was like illustration, video, photography and digital media art.`}/>
           </div>
 
           <div className="people-body-card">
@@ -276,7 +276,7 @@ function Forms() {
               <img src="images/van.png"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Van Nguyen</p>
-            <p className="people-body-card-text">There are many ways for artists to create or to express themselves through their works. As a Digital Media Art student artist, Van's main language of art is through videos. She is always fascinated with the beauty of storytelling, motions and concepts in video art, her goal is to create videos which can convey stories and certain feelings to the audience. Van loves seeing creative mixtures in an art piece. She highly appreciates the combination of visual and audio, as well as a collaboration between traditional and digital arts. Therefore, she believes that music, promotional videos, motion graphics and short animations are what she needs to focus on in order to expand her skills and creativity.</p>
+            <Accordion content={`There are many ways for artists to create or to express themselves through their works. As a Digital Media Art student artist, Van's main language of art is through videos. She is always fascinated with the beauty of storytelling, motions and concepts in video art, her goal is to create videos which can convey stories and certain feelings to the audience. Van loves seeing creative mixtures in an art piece. She highly appreciates the combination of visual and audio, as well as a collaboration between traditional and digital arts. Therefore, she believes that music, promotional videos, motion graphics and short animations are what she needs to focus on in order to expand her skills and creativity.`}/>
           </div>
 
           <div className="people-body-card">
@@ -284,7 +284,7 @@ function Forms() {
               <img src="images/sophia.jpg"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Sophia Gillenberg</p>
-            <p className="people-body-card-text">Sophia's work's purpose is to create a bridge, between the real world and the world of her imagination.  Sophia has struggled since birth with finding a means of communication between the two worlds due to several learning disabilities. Through art she is able to communicate without any boundaries, creating a safe place for self expression. From a young age she was told she couldn’t at every new venture. Sophia now strives to not only show that she can but, to show that she can flourish, proving that she is not defined by her disability. Through art she is able to communicate without any boundaries, expressing the real unaltered force behind her art.</p>
+            <Accordion content={`Sophia's work's purpose is to create a bridge, between the real world and the world of her imagination.  Sophia has struggled since birth with finding a means of communication between the two worlds due to several learning disabilities. Through art she is able to communicate without any boundaries, creating a safe place for self expression. From a young age she was told she couldn’t at every new venture. Sophia now strives to not only show that she can but, to show that she can flourish, proving that she is not defined by her disability. Through art she is able to communicate without any boundaries, expressing the real unaltered force behind her art.`}/>
           </div>
 
           <div className="people-body-card">
@@ -292,7 +292,7 @@ function Forms() {
               <img src="images/cindy.jpg"/>
             </div>
             <p className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Cindy Tran</p>
-            <p className="people-body-card-text">As a self-taught artist, Cindy started off having no specialized knowledge or skills. However, she became intrigued with the concept of creating art in an unfamiliar and complex space. Despite her artistic experience originating from the realm of traditional art, her skills and studies vary across a spectrum. Currently, she enjoys exploring new ways to approach art through diverse means such as coding, 3D modeling, web designing, and creating digital image compositions. With artistic exploration and experimentation, Cindy aspires to learn and expand her creations beyond mundane and conventional means. She believes that art reaches far beyond a flat canvas, holding universal truths, and ignites immersive and interactive experiences that simply cannot be defined in a singular form.</p>
+            <Accordion content={`As a self-taught artist, Cindy started off having no specialized knowledge or skills. However, she became intrigued with the concept of creating art in an unfamiliar and complex space. Despite her artistic experience originating from the realm of traditional art, her skills and studies vary across a spectrum. Currently, she enjoys exploring new ways to approach art through diverse means such as coding, 3D modeling, web designing, and creating digital image compositions. With artistic exploration and experimentation, Cindy aspires to learn and expand her creations beyond mundane and conventional means. She believes that art reaches far beyond a flat canvas, holding universal truths, and ignites immersive and interactive experiences that simply cannot be defined in a singular form.`}/>
           </div>
         </div>
       </div>
