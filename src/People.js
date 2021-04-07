@@ -1,5 +1,6 @@
 import  Navbar  from './Navbar'
 import './css/People.css';
+import  Footer  from './Footer'
 
 function Forms() {
   return (
@@ -289,10 +290,7 @@ function Forms() {
         </div>
       </div>
 
-      <div className="footer">
-        <h1>hello anthony how are you? (this is footer)</h1>
-      </div>
-      
+      <Footer/>
     </div>
   );
 }

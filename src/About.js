@@ -1,6 +1,7 @@
 import  Navbar  from './Navbar'
 import './css/About.css';
 import { Link } from 'react-router-dom';
+import  Footer  from './Footer'
 
 function About() {
   return (
@@ -40,10 +41,7 @@ function About() {
       </div>
       <hr className="about-bodyLine2"></hr>
 
-      <div className="footer">
-        <h2>follow anthony how are you? (this is footer)</h2>
-      </div>
-
+      <Footer/>
     </div>
   );
 }

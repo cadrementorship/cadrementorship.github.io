@@ -1,3 +1,20 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css');
+
 .footer {
-    margin: 0;
+    border-top: 1px solid;
+    min-height: 52px;
+    box-shadow: 0 -1px 0 rgba(0,0,2,.23);
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.socials {
+    color: grey;
+    margin: auto;
+    padding: 15px;
+    font-size: 35px;
+    text-decoration: none;
+    vertical-align: middle;
 }
