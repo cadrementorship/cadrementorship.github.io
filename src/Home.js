@@ -71,7 +71,7 @@ function Home() {
           <div className="home-intro-btn">
             <div className="home-intro-mentor"> Be a Mentor</div>
             <div className="home-intro-mentee"> Be a Mentee</div>
-            <div className="home-intro-join"> Join a Committee</div>
+            <div className="home-intro-join"> Join  Committee</div>
           </div>  
       </div>
 
