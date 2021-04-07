@@ -27,7 +27,7 @@
 .people-intro-line {
   margin-left: 5vw;
   margin-right: 5vw;
-  border-color: #00dbf4;
+  border: 1px solid #00dbf4;
 }
 
 .people-intro-text {
