@@ -39,7 +39,7 @@ function About() {
           </div>
         </div>
       </div>
-      <hr className="about-bodyLine2"></hr>
+      {/* <hr className="about-bodyLine2"></hr> */}
 
       <Footer/>
     </div>
