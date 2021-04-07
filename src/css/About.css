@@ -78,7 +78,7 @@
   margin-top: 200px;
   margin-left: 120px;
   margin-right: 120px;
-  border: solid #00dbf4 1px;
+  border: solid #00dbf4 .5px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -134,7 +134,7 @@
   }
   .about-bodyLine2 {
     margin: 100px 20px 0px 20px;
-    border-color: #00dbf4;
+    border: solid #00dbf4 0.5px;
   }
 }
 
