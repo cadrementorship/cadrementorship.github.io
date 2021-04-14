@@ -77,7 +77,7 @@ function Forms() {
 
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src="https://dummyimage.com/150x150.jpg"/>
+              <img src="images/ranz.png"/>
             </div>
             <a className="people-body-card-name" href="https://ranzocampo.github.io/website/portfolio.html" target="_blank">Ranz Ocampo</a>
             <Accordion content={`My practice sums up how I create my own worlds through illustrations and video art, in which I work versatile with any digital medium that fits the theme of the narration I want to explore and present.  The uniqueness of my practice is highlighted through extracting and taking advantage of these technological advances to create my own narrative that will capture and engage the viewers.  My practice has taught me how to be patient with myself and my work and not everything is going to work in my favor because I am working with a machine.  As a digital media artist, it forced me to be more flexible and be able to adapt in situations where things can become finicky, and overcoming situations like that inspires me to push myself and motivates me to work harder in my future works.   It is important to me because it makes me who I am as a person that is extremely passionate about the creation and the process of my work.  The medium I mainly focus on is digital paintings, but I am passionate about other mediums as well such as video, photo, physical painting, and drawing.  MAYA is a great 3D program that I was fortunate to learn because of the overwhelming amount of fantastic features that it offers in order to create awesome 3D models and later animating them.  This was a great opportunity to showcase my creative skills because I do not have any experience with 3D and I have always worked with 2D`}/>
@@ -93,7 +93,7 @@ function Forms() {
 
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src="https://dummyimage.com/150x150.jpg"/>
+              <img src="images/victoria.JPG"/>
             </div>
             <a className="people-body-card-name" href="https://victoriaserrato.github.io/" target="_blank">Victoria Serrato</a>
             <Accordion content={`I am an artist who works primarily in digital media, as well as painting, sculpture, and traditional illustration. My works explore themes such as identity, emotions, reality, and translations of phenomena into a visual, mostly digital, spaces.`}/>
@@ -109,7 +109,7 @@ function Forms() {
 
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src="https://dummyimage.com/150x150.jpg"/>
+              <img src="images/laurie.jpg"/>
             </div>
             <a className="people-body-card-name" href="https://laurieytakeda.github.io/laurieytakeda/" target="_blank">Laurie Takeda</a>
             <Accordion content={`My work reflects the way I perceive the world through the digital medium of videography and photography. It's informed by different destinations and personal experiences during my lifetime filtered through expression. I attempt to contemplate on different perspectives, focusing on how conceptually, everything that's built upon the foundation of the earth can be made into art. I’m inspired by those that I interact with, or the essence of a destination. I gather content through videos of friends while we hang out, or creating montages of places that I've traveled to with family, capturing candid moments and movements of the subject at hand. Conceptually, I think about the interchangeable thoughts of media through photography and videography from different environments and subjects that are presented through the livelihood of a person. Photography and videography allow for further interpretation of scenes that are placed before the viewer and myself as an artist. I've been inspired by Andy To, a videographer/photographer from Oakland, who creates cinematic content from the places that he has travelled to through the lens of a camera, both with creating a space where the viewer feels as if they’re experiencing the space as if they’re actually there, and through the aesthetics of how the pieces are put together as a whole. From my work, I want the viewers to be able to make connections to their own lives, experiencing the work as if they’re physically in that space, and seeing my art as a way to open their minds to other perspectives and insight towards life.`}/>
@@ -117,7 +117,7 @@ function Forms() {
 
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src="https://dummyimage.com/150x150.jpg"/>
+              <img src="images/heru.JPG"/>
             </div>
             <a className="people-body-card-name" href="https://heruwangdesign.com/" target="_blank">Heru Wang</a>
             <Accordion content={`I am a multidisciplinary artist using a variety of tools to tell stories on digital platforms. My practices involve using Adobe Creative Suites, Maya and coding to express emotions that resonate with the audience. I draw inspiration from people around me who struggle with anxiety; my work provides a space for these people struggling with fast paced life. I use images and virtual reality environments to bring emotions to life virtually and communicate with my audience through interactions. Many stories and imaginations are hard to describe with words or other mediums. However, through technology and digital formats, stories become more vivid and deliverable. By enabling interaction, users are able to explore and find the clues by themselves. \n\nMaking VR scene is a new adventure to me that contains excitement, hardships, and victory. Even though my experience with A-frame and three.js is quite new, I tried to make every piece of my idea come true despite how hard it is to develop on A-frame. Doing countless research on different three.js libraries and carefully arranging the scene in A-Frame are valuable moments to me since it helps me to learn things quickly and defeat problems without doubts. This working pattern of solving problems keeps my skills fresh and my mind sharp.\n\nMy momentum of making art comes from my desire of connecting with others and helping others. It will be my lifelong mission to listen to people’s stories and make art with empathy.`}/>
