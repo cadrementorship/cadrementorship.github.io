@@ -1,6 +1,6 @@
 import  Navbar  from './Navbar'
-import './css/Footer.css';
 import './css/Home.css';
+import  Footer  from './Footer'
 
 function Home() {
   return (
@@ -71,7 +71,7 @@ function Home() {
           <div className="home-intro-btn">
             <div className="home-intro-mentor"> Be a Mentor</div>
             <div className="home-intro-mentee"> Be a Mentee</div>
-            <div className="home-intro-join"> Join a Committee</div>
+            <div className="home-intro-join"> Join  Committee</div>
           </div>  
       </div>
 
@@ -90,10 +90,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="footer">
-        <h1>hello anthony how are you? (this is footer)</h1>
-      </div>
-      
+      <Footer/>
     </div>
   );
 }
