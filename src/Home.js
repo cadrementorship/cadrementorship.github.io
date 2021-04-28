@@ -69,9 +69,9 @@ function Home() {
         </div>
 
           <div className="home-intro-btn">
-            <div className="home-intro-mentor"> Be a Mentor</div>
-            <div className="home-intro-mentee"> Be a Mentee</div>
-            <div className="home-intro-join"> Join  Committee</div>
+            <a className="home-intro-mentor home-intro-null-btn" target="_blank"> Be a Mentor</a>
+            <a className="home-intro-mentee home-intro-null-btn" target="_blank"> Be a Mentee</a>
+            <a className="home-intro-join" target="_blank" href="https://forms.gle/kRwDiYMjV5VL2Csu9"> Join a Committee</a>
           </div>  
       </div>
 
@@ -81,11 +81,11 @@ function Home() {
         
           <div className="home-body-who"> 
             <p className="home-body-texwho">Who Can Join?</p>
-            <p>Joining the pilot mentorship program allows you to conect with other digital media art students and learn new skills from each other. You will be able to be eligible for new opportunities to be plugged into projects and network with your fellow students.</p>
+            <p>Anyone who wants to meet and connect with other digital media art majors and find out more about the program or show off your skills to newcomers. Those who want to help create a more inclusive environment and be more involved in the community should apply!</p>
           </div>
           <div className="home-body-why">
             <p className="home-body-texwhy">Why Join the Program?</p>
-            <p>Anyone who wants to meet and connect with other digital media art majors and find out more about the program or show off your skills to newcomers. Those who want to help create a more inclusive environment and be more involved in the community should apply? </p>
+            <p>Joining the pilot mentorship program allows you to connect with other digital media art students and learn new skills from each other. You will be able to be eligible for new opportunities to be plugged into projects and network with your fellow students.</p>
           </div>
         </div>
       </div>

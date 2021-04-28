@@ -19,7 +19,7 @@ function About() {
 
       <div className="about-body">
         <div className="about-bodyBtn">
-              <p className="about-bodyConduct"> CADRE MENTORSHIP CODE OF CONDUCT</p>
+              <a className="about-bodyConduct" target="_blank" href=""> CADRE MENTORSHIP CODE OF CONDUCT</a>
             </div>  
         <div className="about-bodyInfo">
           <div className="about-mento"> 
@@ -33,8 +33,8 @@ function About() {
           <div className="about-mente">
             <p className="about-bodyRole">ABOUT THE MENTEES</p>
             <p><b>The role of a mentee</b> is to learn and engage with their mentor. The mentee is tasked with the responsibilities of soaking in as much information as they can.</p>          
-            <p><b>The responsibilities of a mentee</b> are to be responsive and respectful of all in the program. Be bold and think about what you want to explore, you want to make the best of this opportunity. </p>
-            <p><b>Anyone who has passed the DMA portfolio review</b> and has basic knowledge of some upper division classes (Art 101 and above). We are looking for caring and compassionate mentors that can form an inclusive community and share new forms of digital media art that other might not know about.</p>           
+            <p><b>The responsibilities of a mentee</b> are to be responsive and respectful of all in the program. Be bold and think about what you want to explore, you want to make the best of this opportunity and take initiative whenever you can.</p>
+            <p><b>Students currently enrolled in Art 74 or 75</b> can be considered to be a potential mentee this semester. The number of availble slots depends on the number of enrolled Mentors during the semster.</p>           
             <p><b>Being a mentee give you access</b> to a network of upperclassmen to help show you the ropes of the program and you a chance to make new friends and connections with the other mentees and mentors.</p>
           </div>
         </div>

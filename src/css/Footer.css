@@ -1,5 +1,5 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css");
 
 .footer {
     min-height: 52px;
@@ -10,10 +10,10 @@
 }
 
 .socials {
-    color: grey;
-    margin: auto;
-    padding: 15px;
-    font-size: 35px;
-    text-decoration: none;
-    vertical-align: middle;
+  color: grey;
+  margin: auto;
+  padding: 15px;
+  font-size: 35px;
+  text-decoration: none;
+  vertical-align: middle;
 }
