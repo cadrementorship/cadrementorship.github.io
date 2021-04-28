@@ -2,11 +2,11 @@
 @import url("https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css");
 
 .footer {
-  min-height: 52px;
-  box-shadow: 0 -1px 0 rgba(0, 0, 2, 0.23);
-  text-align: center;
-  margin-top: 50px;
-  padding: 50px;
+    min-height: 52px;
+    box-shadow: 0 -1px 0 rgba(0,0,2,.23);
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
 }
 
 .socials {
