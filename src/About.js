@@ -2,6 +2,7 @@ import  Navbar  from './Navbar'
 import './css/About.css';
 import { Link } from 'react-router-dom';
 import  Footer  from './Footer'
+import codeConduct from './cadre_mentorship_code_of_conduct.pdf';
 
 function About() {
   return (
@@ -19,8 +20,8 @@ function About() {
 
       <div className="about-body">
         <div className="about-bodyBtn">
-              <a className="about-bodyConduct" target="_blank" href=""> CADRE MENTORSHIP CODE OF CONDUCT</a>
-            </div>  
+          <a className="about-bodyConduct" target="_blank" href={codeConduct}> CADRE MENTORSHIP CODE OF CONDUCT</a>
+        </div>  
         <div className="about-bodyInfo">
           <div className="about-mento"> 
             <p className="about-bodyText">ABOUT THE MENTORS</p>

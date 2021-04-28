@@ -71,7 +71,7 @@ function Home() {
           <div className="home-intro-btn">
             <a className="home-intro-mentor home-intro-null-btn" target="_blank"> Be a Mentor</a>
             <a className="home-intro-mentee home-intro-null-btn" target="_blank"> Be a Mentee</a>
-            <a className="home-intro-join" target="_blank" href="https://forms.gle/kRwDiYMjV5VL2Csu9"> Join a Committee</a>
+            <a className="home-intro-join" target="_blank" href="https://forms.gle/kRwDiYMjV5VL2Csu9"> Join the Committee</a>
           </div>  
       </div>
 

@@ -43,9 +43,16 @@
 }
 
 .about-bodyConduct {
+  display: inline-block;
   margin: 10px 0px 50px 0px;
   padding: 25px;
   border: 1px solid #00dbf4;
+  text-decoration: none;
+  color: #222;
+}
+
+.about-bodyConduct:hover {
+  text-decoration: underline;
 }
 
 .about-bodyInfo {
