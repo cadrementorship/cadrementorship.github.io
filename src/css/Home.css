@@ -61,6 +61,7 @@
   margin: 60px 0px 0px 0px;
   padding: 10px;
   border: 1px solid black;
+  text-decoration: none;
 }
 
 .home-intro-mentee {
@@ -68,6 +69,7 @@
   margin: 60px 0px 0px 0px;
   padding: 10px;
   border: 1px solid black;
+  text-decoration: none;
 }
 
 .home-intro-join {
@@ -75,6 +77,22 @@
   margin: 60px 0px 0px 0px;
   padding: 10px;
   border: 1px solid black;
+  text-decoration: none;
+}
+
+.home-intro-mentor:hover, .home-intro-mentee:hover, .home-intro-join:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.home-intro-null-btn {
+  background-color: #C0C0C0;
+  color: #222;
+}
+
+.home-intro-null-btn:hover {
+  background-color: #C0C0C0;
+  color: #222;
 }
 
 .home-in-title {
@@ -119,6 +137,28 @@
   font-size: 17px;
 }
 
+@media only screen and (min-width: 1500px) {
+  .home-intro {
+    margin: 0 300px;
+  }
+
+  .home-intro-mentor {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .home-intro-mentee {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .home-intro-join {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .home-body {
+    margin: 100px 300px 0;
+  }
+}
+
 @media only screen and (max-width: 860px) {
   .home-intro {
     margin: 0 20px;
@@ -139,7 +179,9 @@
   }
 
   .home-intro-btn {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "mentor" "mentee" "join";
   }
   /* margin:top,right,bottom,left */
   .home-intro-mentor {
@@ -177,27 +219,5 @@
   }
   .home-body-texwhy {
     font-size: 17px;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .home-intro {
-    margin: 0 300px;
-  }
-
-  .home-intro-mentor {
-    margin: 50px 0px 0px 0px;
-  }
-
-  .home-intro-mentee {
-    margin: 50px 0px 0px 0px;
-  }
-
-  .home-intro-join {
-    margin: 50px 0px 0px 0px;
-  }
-
-  .home-body {
-    margin: 100px 300px 0;
   }
 }
