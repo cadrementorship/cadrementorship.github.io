@@ -11,8 +11,10 @@ function About() {
 
       <div className="about-intro">
         <div className="about-hero">
-          <img className="about-hero-img" src="https://dummyimage.com/368x200.jpg"/>
-          <p className="about-hero-text">Anthony Sokry was Here, Lorem Lorem Lorem</p>
+          <a href="https://cadrementorship.github.io/showcase-f20/teams/dealy.html">
+            <img className="about-hero-img" src="images/hero-img/Exploration.jpg"/>
+            <p className="about-hero-text">Exploration, Deanna Gutierrez &amp; Ashley Linder</p>
+          </a>
         </div>
         <hr className="about-intro-line"/>
         <p className="about-intro-text">The Cadre Mentorship Program is an academic leadership program that helps Digital Media Arts students thrive in thier careers at San Jose State University and beyond.</p>

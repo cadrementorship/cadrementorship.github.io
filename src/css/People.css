@@ -15,6 +15,10 @@
   margin: 50px auto;
 }
 
+.people-hero a {
+  text-decoration: none;
+}
+
 .people-hero-img {
   width: 100%;
   height: auto;

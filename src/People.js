@@ -16,8 +16,10 @@ function Forms() {
 
       <div className="people-intro">
         <div className="people-hero">
-          <img className="people-hero-img" src="https://dummyimage.com/368x200.jpg"/>
-          <p className="people-hero-text">Anthony Sokry was Here, Lorem Lorem Lorem</p>
+          <a href="https://cadrementorship.github.io/showcase-f20/teams/yabrinaaa.html">
+            <img className="people-hero-img" src="images/hero-img/BiggerThanUs.jpg"/>
+            <p className="people-hero-text">Bigger than Us, Yeab Kebede &amp; Sabrina Kwong</p>
+          </a>
         </div>
         <hr className="people-intro-line"/>
         <p className="people-intro-text">The Cadre Mentorship Program is an academic leadership program that helps Digital Media Arts students thrive in thier careers at San Jose State University and beyond.</p>

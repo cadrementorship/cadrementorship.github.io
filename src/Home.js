@@ -14,55 +14,55 @@ function Home() {
       <div className="home-intro">      
         <div className="home-in-grid">         
           <div className="home-intro-pic1"> 
-            <a href="https://www.microsoft.com/en-us/?spl=1">
-              <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+            <a href="https://cadrementorship.github.io/showcase-f20/teams/carayci.html">
+              <img src="images/hero-img/FragileDreams.jpg"
                 className="home-intro-img"/>
             </a>
-            <div className="home-in-title">Lopem</div>
+            <div className="home-in-title">Fragile Dreams, Cameron Chung &amp; Cindy Tran &amp; Raymond Lam</div>
           </div>
           
           <div className="home-intro-pic2"> 
-           <a href="https://www.microsoft.com/en-us/?spl=1">
-              <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+           <a href="https://cadrementorship.github.io/showcase-f20/teams/mrap.html">
+              <img src="images/hero-img/lucidDream.jpg"
                 className="home-intro-img"/>
             </a>
-          <div className="home-in-title">Lopem</div>
+          <div className="home-in-title">Lucid Dream, Christian Acosta &amp; Cole Pergerson</div>
 
           </div>
           
           <div className="home-intro-pic3"> 
-            <a href="https://www.microsoft.com/en-us/?spl=1">
-                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+            <a href="https://cadrementorship.github.io/showcase-f20/teams/charlesxTyler.html">
+                <img src="images/hero-img/PandorasBox.jpg"
                   className="home-intro-img"/>
             </a>
-           <div className="home-in-title">Lopem</div>
+           <div className="home-in-title">Pandora's Box, Charles Graciano &amp; Tyler Stannard</div>
 
           </div>
           
           <div className="home-intro-pic4"> 
-            <a href="https://www.microsoft.com/en-us/?spl=1">
-                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+            <a href="https://cadrementorship.github.io/showcase-f20/teams/alyssonD.html">
+                <img src="images/hero-img/lucid.jpg"
                   className="home-intro-img"/>
             </a>
-           <div className="home-in-title">Lopem</div>
+           <div className="home-in-title">Lucid, Alyssa Castenada &amp; Derek Kwok &amp; Jason Manzon</div>
 
           </div>
           
           <div className="home-intro-pic5"> 
-            <a href="https://www.microsoft.com/en-us/?spl=1">
-                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+            <a href="https://cadrementorship.github.io/showcase-f20/teams/sonice.html">
+                <img src="images/hero-img/Metamorphosis.jpg"
                   className="home-intro-img"/>
             </a>
-           <div className="home-in-title">Lopem</div>
+           <div className="home-in-title">Metamorphosis, Sophia Gillenburg &amp; Berenice Cortes</div>
 
           </div>
           
           <div className="home-intro-pic6"> 
-            <a href="https://www.microsoft.com/en-us/?spl=1">
-                <img src="https://designshack.net/wp-content/uploads/black-texture-background-368x246.jpg"
+            <a href="https://cadrementorship.github.io/showcase-f20/teams/vandy.html">
+                <img src="images/hero-img/SummerDreamscape.jpg"
                   className="home-intro-img"/>
             </a>
-           <div className="home-in-title">Lopem</div>
+           <div className="home-in-title">Summer Dreamscape, Van Nguyen &amp; Andy Wu</div>
 
           </div>
 

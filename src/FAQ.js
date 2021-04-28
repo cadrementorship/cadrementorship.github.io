@@ -17,8 +17,10 @@ function FAQ() {
 
       <div className="faq-intro">
         <div className="faq-hero">
-          <img className="faq-hero-img" src="https://dummyimage.com/368x200.jpg"/>
-          <p className="faq-hero-text">Anthony Sokry was Here, Lorem Lorem Lorem</p>
+          <a href="https://cadrementorship.github.io/showcase-f20/teams/catson.html">
+            <img className="faq-hero-img" src="images/hero-img/LayWithMeBeneaththeGeminiSky.jpg"/>
+            <p className="faq-hero-text">Lay With Me Beneath the Gemini Sky, Catherine Thy Le &amp; Eddson Jose</p>
+          </a>
         </div>
         <hr className="faq-intro-line"/>
         <p className="faq-intro-text">The Cadre Mentorship Program is an academic leadership program that helps Digital Media Arts students thrive in thier careers at San Jose State University and beyond.</p>
