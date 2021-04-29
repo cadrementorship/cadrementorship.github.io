@@ -36,7 +36,7 @@ function Forms() {
           {/* copy from here */}
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src="https://dummyimage.com/150x150.jpg"/>
+              <img src="images/clay.jpg"/>
             </div>
             <a className="people-body-card-name" href="https://clb-bfa-portfolio.netlify.app/" target="_blank">Clay Bedinger</a>
             <Accordion content={`Our digital age is full of opportunity for those with the skill to wield it, for better or worse. As a digital media artist, I choose better. My return to San Jose State is defined by a burning desire to finish my studies and begin making my mark on the world - leaving everything in my path better than when I found it. My goal is to use my freedom of thought to harness the powerful tools, knowledge, and networks available in the information age to make the future a better place, improving experiences for people around the world. \n\nIn digital art practice, I am drawn to data visualization, user experience research and design, and technical writing. I am actively preparing myself for a career in these fields, seeking opportunities to use my talents as a tangible force for good in the world. Whether designing a new way to re-enable a disability, visualizing data to draw attention to a societal problem, or translating difficult technological concepts into plain, engaging language for everyone to learn about and understand, I intend to stake a claim on the digital frontier in the name of those who cannot.`}/>
@@ -45,7 +45,7 @@ function Forms() {
               
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src="https://dummyimage.com/150x150.jpg"/>
+              <img src="images/rachel.jpg"/>
             </div>
             <a className="people-body-card-name" href="https://www.rcentinaje.com/portfolio" target="_blank">Rachel Centinaje</a>
             <Accordion content={`I’m Rachel Centinaje, a digital media artist working video, motion graphics, 3D modeling, and illustration. Art has helped me gain insight about the world and myself. A lot of my inspiration comes from digital artists, nostalgia, film, video games, and pop culture. When I consume things, I like to remix it to form my interpretation. Digital artists Jonathan Zawada, Quentin Deronzier, and Kim Laughton influence my works because it looks dreamlike, whimsical, and odd, transporting the viewer to an unfamiliar world, but at the same brings out familiarness. It inspires me to create art and reflect that in my own style and works. My current work explores the relationship between digital technology and culture along with the psychological effects it has on us, especially with this odd transition between the old world and new technology.`}/>
@@ -53,9 +53,9 @@ function Forms() {
 
           <div className="people-body-card">
             <div className="people-body-card-img">
-              <img src="https://dummyimage.com/150x150.jpg"/>
+              <img src="images/jordan.jpg"/>
             </div>
-            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Jordan Hoekwater</a>
+            <a className="people-body-card-name" href="https://www.linkedin.com/in/jordan-hoekwater-3a7b0a162/" target="_blank">Jordan Hoekwater</a>
             <Accordion content={`My work as an artist explores the multi-fascinated manipulation of art processes in multimedia. My passion enables me to quickly learn and adapt within a constantly developing digital world. My goal as an artist is to give my audience insight into perspectives outside of their native views, in the hopes of inspiring new and interesting critiques on the world around us.`}/>
           </div>
 
@@ -132,7 +132,7 @@ function Forms() {
             <div className="people-body-card-img">
               <img src="images/christian.jpg"/>
             </div>
-            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Chirstain Acosta</a>
+            <a className="people-body-card-name" href="https://www.linkedin.com/in/christianlacosta/" target="_blank">Chirstain Acosta</a>
             <Accordion content={`The 1st time I started drawing was in elementary. I started making short funny comics for my friends then advanced to animation and storytelling in high school and college. If I can get people feel and emotion through my art, then I have made a successful one.`}/>
           </div>
 
@@ -164,7 +164,7 @@ function Forms() {
             <div className="people-body-card-img">
               <img src="images/sophia.jpg"/>
             </div>
-            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Sophia Gillenberg</a>
+            <a className="people-body-card-name" href="https://www.linkedin.com/in/sophia-gillenberg-504611189/" target="_blank">Sophia Gillenberg</a>
             <Accordion content={`Sophia's work's purpose is to create a bridge, between the real world and the world of her imagination.  Sophia has struggled since birth with finding a means of communication between the two worlds due to several learning disabilities. Through art she is able to communicate without any boundaries, creating a safe place for self expression. From a young age she was told she couldn’t at every new venture. Sophia now strives to not only show that she can but, to show that she can flourish, proving that she is not defined by her disability. Through art she is able to communicate without any boundaries, expressing the real unaltered force behind her art.`}/>
           </div>
 
@@ -172,7 +172,7 @@ function Forms() {
             <div className="people-body-card-img">
               <img src="images/charles.jpg"/>
             </div>
-            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Charles Graciano</a>
+            <a className="people-body-card-name" href="https://www.linkedin.com/in/charles-graciano-9027471b4/" target="_blank">Charles Graciano</a>
             <Accordion content={`Charles is an artist in visual communication and Digital Media Graphics. Motion graphics fascinate him the most when digital media is involved. While studying in San Francisco, he learned a lot about the involvement with media graphics. He has experience with traditional animation and was trained by active motion picture professionals who served and are currently in the in the entertainment industry. He's working towards developing his content and elaborate his concepts into productions. A lifetime goal of his is to collaborate his concepts and skills with the Walt Disney Company and Pixar to create character development, graphic design and digital editing.`}/>
           </div>
 
@@ -204,7 +204,7 @@ function Forms() {
             <div className="people-body-card-img">
               <img src="images/catherine.jpg"/>
             </div>
-            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Catherine Thy Le</a>
+            <a className="people-body-card-name" href="https://www.linkedin.com/in/catherinethyle/" target="_blank">Catherine Thy Le</a>
             <Accordion content={`As an artist, Catherine avoids confining her abilities into a single box. Digital and traditional mediums are all fair game for her. She uses mediums that attract her attention and those in which she would like to hone in her skills with. The same can be said regarding her subject matter. She creates artwork based off of what captures her eye and piques her interest. Recreation of landscapes, people, objects, all can be rendered through her own personal lens. With her art, Catherine wants to offer the viewer an emotional experience, regardless of how big or small. Whether it be happiness, tranquility, sadness, anger, awe, or comradery, she wants her art to be a capsule for those emotions. Catherine believes that the beauty of art lies within how it is able to connect complete strangers regardless of their identity and background and would like to provide an open and welcoming space like this for individuals in the future.`}/>
           </div>
 
