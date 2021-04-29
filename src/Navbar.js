@@ -11,7 +11,7 @@ function Navbar() {
             <div className="navbar-container">
                 <div className="navbar-header">
                     <Link className="navbar-logo" to="/">
-                        <img className="navbar-img" src="https://asokry.github.io/cadre-mentorship-snapshot2020/img/logo_draft.png"/>
+                        <img className="navbar-img" src="images/logo/cube-logo.png"/>
                     </Link>
                     <button type="button" className="navbar-toggle" onClick={()=>{setClickCollapse(!cllickCollapse)}}>
                         <span className="icon-bar"></span>
