@@ -180,7 +180,7 @@ function Forms() {
             <div className="people-body-card-img">
               <img src="images/deanna.jpg"/>
             </div>
-            <a className="people-body-card-name" href="https://asokry.github.io/" target="_blank">Deanna Gutierrez</a>
+            <a className="people-body-card-name" href="https://cadrementorship.github.io/" target="_blank">Deanna Gutierrez</a>
             <Accordion content={`Deanna loves creating different kinds of art by experimenting with a range of both traditional and digital mediums. Despite having more experience in studio art, she hopes to grow as a digital artist as well. Her goal as an artist is to inspire others and bring them the same wonder that other artists have brought her. Her greatest motivations for art is the experience of creation, self expression, and video games. Video games have been a great source of inspiration for her for most of her life. She graduated from Clovis Community College with an AA in Studio Arts, and has experience in creating digital illustrations using Autodesk Sketchbook and modeling 3D objects using Blender. She has also been experimenting with Adobe Lightroom and Premiere. Her career goal is to graduate with a BFA in Digital Media Art as a game designer.`}/>
           </div>
 
