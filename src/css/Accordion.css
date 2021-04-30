@@ -1,0 +1,39 @@
+.accordion-text {
+  overflow: hidden;
+  max-height: 42px;
+  transition: max-height 0.6s ease;
+  white-space: pre-wrap;
+  /* text-indent: 50px; */
+  /* text-align: justify; */
+}
+
+.accordion-button {
+  border: solid #222;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.accordion-button-text {
+  margin: 0;
+  display: inline-block;
+}
+
+.accordion-button:hover,
+.accordion-button-active {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accordion-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  transform: rotate(180deg);
+}
+
+.accordion-icon-rotate {
+  transform: rotate(0deg);
+}

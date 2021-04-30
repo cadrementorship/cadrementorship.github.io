@@ -1,0 +1,142 @@
+.people-page {
+  text-align: center;
+}
+
+.people-page {
+  text-align: center;
+}
+
+.people-intro {
+  margin-bottom: 25px;
+}
+
+.people-hero {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.people-hero a {
+  text-decoration: none;
+}
+
+.people-hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.people-hero-text {
+  margin: 0;
+}
+
+.people-intro-line {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border: solid #00dbf4 1px;
+}
+
+.people-intro-text {
+  margin: 0;
+}
+
+/* .people-intro {
+    width: 70vw;
+    margin: 50px auto;
+}
+
+.people-hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.people-hero-text {
+    margin-top: 0;
+    text-align: right;
+}
+
+.people-intro-line {
+    margin-top: 50px;
+    border-color: #00dbf4;
+}
+
+.people-intro-text {
+    margin-top: 0;
+} */
+
+.people-body {
+  width: 70vw;
+  margin: 50px auto;
+}
+
+.people-body-title {
+  text-align: left;
+  padding: 15px 10px;
+}
+
+.people-body-mentor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.people-body-card {
+  padding: 10px 0;
+  text-align: left;
+  /* background-color: white; */
+}
+
+.people-body-card-img {
+  /* max-height: 150px; */
+  width: 150px;
+  height: 150px;
+}
+
+.people-body-card-img img {
+  height: 100%;
+  width: auto;
+}
+
+.people-body-card-name {
+  font-size: 21px;
+  color: #337ab7;
+  display: inline-block;
+  margin: 21px 0;
+  /* text-decoration: none; */
+}
+
+.people-body-card-name:hover {
+  text-decoration: none;
+  color: #222;
+}
+
+/* .people-body-card-text {
+    overflow: hidden;
+    height: 42px;
+} */
+
+.people-body-card-more {
+  border: solid #222;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.people-body-card-more:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1060px) {
+  .people-body-mentor-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .people-body-mentor-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+}

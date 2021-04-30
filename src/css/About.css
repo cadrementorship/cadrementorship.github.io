@@ -1,3 +1,164 @@
 .about-page {
+  text-align: center;
+}
+
+.about-page {
+  text-align: center;
+}
+
+.about-intro {
+  margin-bottom: 25px;
+}
+
+.about-hero {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.about-hero a {
+  text-decoration: none;
+}
+
+.about-hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.about-hero-text {
+  margin: 0;
+}
+
+.about-intro-line {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border: solid #00dbf4 1px;
+}
+
+.about-intro-text {
+  margin: 0;
+}
+
+.about-body {
+  margin: 50px 170px 0;
+}
+
+.about-bodyBtn {
+  margin: 0px 120px;
+}
+
+.about-bodyConduct {
+  display: inline-block;
+  margin: 10px 0px 50px 0px;
+  padding: 25px;
+  border: 1px solid #00dbf4;
+  text-decoration: none;
+  color: #222;
+}
+
+.about-bodyConduct:hover {
+  text-decoration: underline;
+}
+
+.about-bodyInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "who why";
+}
+
+.about-mento {
+  grid-area: who;
+  text-align: left;
+  padding-right: 30px;
+}
+
+.about-mente {
+  grid-area: why;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.about-bodyText {
+  font-size: 17px;
+}
+.about-bodyRole {
+  font-size: 17px;
+}
+
+.about-bodyLine2 {
+  margin-top: 200px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border: solid #00dbf4 .5px;
+}
+
+@media only screen and (max-width: 850px) {
+  .about-intro {
+    margin: 0 20px;
+  }
+
+  .about-introImg {
+    margin-top: 30px;
+  }
+
+  .about-introTitle {
+    font-size: 11px;
+  }
+
+  .about-introCadre {
+    margin: 10px 5px 40px 5px;
+  }
+
+  /* margin:top,right,bottom,left */
+
+  .about-body {
+    margin: 50px 20px 0;
+  }
+
+  .about-bodyBtn {
+    margin: 0px 10px;
+  }
+
+  .about-bodyConduct {
+    font-size: 14px;
+  }
+
+  .about-bodyInfo {
+    margin: 100px 20px 0;
+    display: block;
+  }
+
+  .about-mento {
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .about-mente {
+    margin-left: 0px;
+  }
+
+  .about-bodyText {
+    font-size: 17px;
+  }
+  .about-bodyRole {
+    font-size: 17px;
+  }
+  .about-bodyLine2 {
+    margin: 100px 20px 0px 20px;
+    border: solid #00dbf4 0.5px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .about-introImg {
+    max-width: 1000px;
+  }
+
+  .about-introTitle {
     text-align: center;
+  }
+
+  .about-introCadre {
+    font-size: 15px;
+  }
 }

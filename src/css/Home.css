@@ -2,173 +2,222 @@
   text-align: center;
 }
 
-.in-grid{
+.home-intro-cadre {
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 5px 40px 5px;
+}
+.home-intro {
+  margin: 0 120px;
+}
+
+.home-in-grid {
   display: grid;
-  grid-template-columns: repeat(3, .23fr);
-  grid-template-rows: 1.25fr 1fr ;
-  grid-template-areas: 
-  "pic1 pic2 pic3"
-  "pic4 pic5 pic6"
-  ;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "pic1 pic2 pic3"
+    "pic4 pic5 pic6";
   /* place-items: stretch; */
-  justify-content: center;
+  /* justify-content: center; */
   grid-gap: 0px 50px;
 }
 
-
-
-.intro-cadre{
-  font-size: 12px;
-  
-  text-align: center;
-  margin: 0px 5px 40px 5px;
-
-}
-
-.intro-pic1{
+.home-intro-pic1 {
   grid-area: pic1;
+  margin-bottom: 50px;
 }
 
-.intro-pic2{
+.home-intro-pic2 {
   grid-area: pic2;
 }
 
-.intro-pic3{
+.home-intro-pic3 {
   grid-area: pic3;
 }
 
-.intro-pic4{
+.home-intro-pic4 {
   grid-area: pic4;
 }
 
-.intro-pic5{
+.home-intro-pic5 {
   grid-area: pic5;
 }
 
-.intro-pic6{
+.home-intro-pic6 {
   grid-area: pic6;
 }
 
-.intro-btn{
-
+.home-intro-btn {
   display: grid;
-  grid-template-columns: repeat(3, .23fr);
-  grid-template-areas: 
-  "mentor mentee join"
-  ;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "mentor mentee join";
   justify-content: center;
   grid-gap: 0px 50px;
 }
 
-.intro-mentor{
-grid-area: mentor;
-margin: 60px 00px 0px 0px;
-padding: 10px;
-border: 1px solid black;
+.home-intro-mentor {
+  grid-area: mentor;
+  margin: 60px 0px 0px 0px;
+  padding: 10px;
+  border: 1px solid black;
+  text-decoration: none;
 }
 
-.intro-mentee{
+.home-intro-mentee {
   grid-area: mentee;
   margin: 60px 0px 0px 0px;
   padding: 10px;
   border: 1px solid black;
-
+  text-decoration: none;
 }
 
-.intro-join{
+.home-intro-join {
   grid-area: join;
   margin: 60px 0px 0px 0px;
   padding: 10px;
   border: 1px solid black;
-
+  text-decoration: none;
 }
 
-.in-title{
+.home-intro-mentor:hover, .home-intro-mentee:hover, .home-intro-join:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.home-intro-null-btn {
+  background-color: #C0C0C0;
+  color: #222;
+}
+
+.home-intro-null-btn:hover {
+  background-color: #C0C0C0;
+  color: #222;
+}
+
+.home-in-title {
   text-align: left;
   /* display: grid; */
   /* justify-content: left; */
   /* margin-left: 50px; */
 }
-.intro-img{
+.home-intro-img {
   width: 100%;
   height: auto;
   /* display: grid; */
 }
 
-@media only screen and (max-width: 750px){
+.home-body {
+  margin: 100px 120px 0;
+}
 
-  .intro-cadre{
-    margin: 0px 5px 50px 5px;
-  
+.home-body-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "who why";
+}
+
+.home-body-who {
+  grid-area: who;
+  text-align: left;
+  padding-right: 30px;
+}
+
+.home-body-why {
+  grid-area: why;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.home-body-texwho {
+  font-size: 17px;
+}
+.home-body-texwhy {
+  font-size: 17px;
+}
+
+@media only screen and (min-width: 1500px) {
+  .home-intro {
+    margin: 0 300px;
   }
 
-  .in-grid{
-    grid-template-columns: repeat(3, .3fr);
-    grid-template-rows: 1.25fr 1fr ;
+  .home-intro-mentor {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .home-intro-mentee {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .home-intro-join {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .home-body {
+    margin: 100px 300px 0;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .home-intro {
+    margin: 0 20px;
+  }
+
+  .home-intro-cadre {
+    margin: 10px 5px 40px 5px;
+  }
+  .home-in-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
     grid-gap: 10px 20px;
   }
 
-  .intro-img{
+  .home-intro-img {
     width: 100%;
     height: auto;
   }
 
-  .intro-btn{
+  .home-intro-btn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "mentor" "mentee" "join";
+  }
+  /* margin:top,right,bottom,left */
+  .home-intro-mentor {
+    margin: 50px 20px 0px 20px;
+  }
+
+  .home-intro-mentee {
+    margin: 30px 20px 0px 20px;
+  }
+
+  .home-intro-join {
+    margin: 30px 20px 0px 20px;
+  }
+
+  .home-body {
+    margin: 100px 20px 0;
+  }
+
+  .home-body-info {
+    margin: 100px 20px 0;
     display: block;
   }
-    /* margin:top,right,bottom,left */
-  .intro-mentor{
-    margin: 50px 20px 0px 20px;
-    }
-    
-    .intro-mentee{
-      margin: 30px 20px 0px 20px;
-    }
-    
-    .intro-join{
-      margin: 30px 20px 0px 20px;
-    }
-    
 
+  .home-body-who {
+    padding-right: 0px;
+    padding-bottom: 20px;
   }
 
-
-  .body-info{
-    display: grid;
-    grid-template-columns: .14fr .33fr .43fr .05fr;
-    grid-template-rows: 1fr;
-    margin-top: 100px;
+  .home-body-why {
+    margin-left: 0px;
   }
 
-  .body-who{
-    /* grid-area: who; */
-    text-align: left;
-    grid-column: 2/3;
-  }  
-  
-  .body-why{
-    /* grid-area: why; */
-    text-align: left;
-    grid-column: 3/4;
-    margin-left: 20%;
-  }  
-  
-  .body-para1{
-    /* grid-area: para1; */
-    text-align: left;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin-top: 6%;
-  }  
-  
-  .body-para2{
-    /* grid-area: para2; */
-    text-align: left;
-    grid-column: 3/4;
-    grid-row: 2/3;
-    margin-left: 20%;
-    margin-top: 4%;
-
+  .home-body-texwho {
+    font-size: 17px;
   }
-
-  
+  .home-body-texwhy {
+    font-size: 17px;
+  }
+}
