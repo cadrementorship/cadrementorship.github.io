@@ -28,7 +28,7 @@ function Navbar() {
                         <li><Link to="/faq">FAQ</Link></li>
                     </ul>
                     <ul className="navbar-right">
-                        <li><a href="https://cadrementorship.github.io/showcase-f20/main.html">F20</a></li>
+                        <li><a href="https://cadrementorship.github.io/showcase-f20/index.html">F20</a></li>
                         {/* <li><Link to="/">SP21</Link></li> */}
                     </ul>
                 </div>
