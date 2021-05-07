@@ -24,7 +24,7 @@ function Navbar() {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/people">People</Link></li>
-                        {/* <li><Link to="/forms">Forms</Link></li> */}
+                        <li><Link to="/showcase">Showcase</Link></li>
                         <li><Link to="/faq">FAQ</Link></li>
                     </ul>
                     <ul className="navbar-right">
