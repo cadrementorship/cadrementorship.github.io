@@ -7,6 +7,7 @@ import About from './About';
 import People from './People';
 import Forms from './Forms';
 import FAQ from './FAQ';
+import showcase from './showcase';
 
 const routing = (
   <Router>
@@ -16,6 +17,7 @@ const routing = (
       <Route path="/people" component={People} />
       <Route path="/forms" component={Forms} />
       <Route path="/faq" component={FAQ} />
+      <Route path="/showcase" component={showcase} />
     </Switch>
   </Router>
 )
